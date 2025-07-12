@@ -1,0 +1,44 @@
+# Cursor Rules for who-was-that-server
+
+## Language and Framework
+- Use Go 1.21+ 
+- Follow Go best practices and conventions
+- Use standard library when possible
+- Prefer explicit error handling
+
+## Code Style
+- Use gofmt for formatting
+- Use golint for linting
+- Follow effective Go guidelines
+- Use meaningful variable and function names
+- Add comments for exported functions and types
+
+## Project Structure
+- Follow standard Go project layout
+- Keep main.go simple and focused
+- Use internal/ for private packages
+- Organize code by feature, not by type
+
+## Dependencies
+- Minimize external dependencies
+- Use go.mod for dependency management
+- Keep dependencies up to date
+- Prefer standard library solutions
+
+## Error Handling
+- Always check errors
+- Wrap errors with context when propagating
+- Use custom error types when appropriate
+- Log errors appropriately
+
+## Testing
+- Write unit tests for all public functions
+- Use table-driven tests when appropriate
+- Aim for high test coverage
+- Use testify/assert for assertions
+
+## Documentation
+- Document all exported functions and types
+- Use godoc conventions
+- Keep README.md updated
+- Include examples in documentation
